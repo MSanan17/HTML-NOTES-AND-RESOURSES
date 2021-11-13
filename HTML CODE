@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- This is a hed heading -->
+    <h1>This is a Heading</h1>
+    <p>This is a Paragraph</p>
+    <!--Image tags-->
+    <a href="https://technews1712.blogspot.com">Click to see my website</a>
+    <img src="img4.img" alt="sorry image">
+
+    <!--bold italic and underline tags-->
+    <b>this is bold</b>
+    <i>this is itallic</i>
+    <u>this is underline</u>
+    <!-- br tag -->
+    <b>this is bold</b>
+    <br>
+    <i>this is itallic</i>
+    <br>
+    <u>this is underline</u><br>
+
+    <!-- big and small tags -->
+    <big>this is big</big><br>
+    <small>this is small</small>
+
+    <!-- Horizental lines -->
+    <hr>
+    <p>hello this</p>
+    <hr>
+    <p>hello thiese are</p>
+    <hr>
+
+    <!-- Hight and Width of image -->
+    <img src="Screenshot.img" alt="hello" width="200" height="30">
+
+    <!-- To draw arrows -->
+
+    <!-- &larr; LEFTWARDS ARROW -->
+    <!-- &uarr; Upwards Arrow -->
+    <!-- &rarr;	RIGHTWARDS ARROW -->
+    <!-- &darr;	LEFTWARDS ARROW -->
+    <!-- More are on https://www.w3schools.com/charsets/ref_utf_arrows.asp -->
+
+    <p>C + O2 &rarr; C + O<sub>2</sub></p>
+
+    <!-- Subscript and superscript -->
+    <hr>
+    <p>C + O<sub>2</sub></p>
+    <hr>
+    <p>A<sup>2</sup></p>
+    <hr>
+
+    <!-- Pre tag to shor any text as it is because html del the extra spaces -->
+    <pre>
+
+    hello
+
+    my Bro
+
+
+    How are you
+</pre>
+
+    <!-- Header Footer And Main Content -->
+
+    <header>
+        <nav>Home <br> About</nav>
+    </header>
+
+    <main>
+        <p>This is main content
+    </main>
+    <p>
+        </main>
+    <main>
+        <section>
+            <a href="www.cod.com" target="main">harry's website</a>
+
+            <!-- If you want that you show a picture and if someone click on it and a link is appears -->
+            <a href="codewithharry.com" target="main">
+                <img src="jph.jpg" alt="harry's website" width="234"></a>
+
+        </section>
+
+        <section>
+            <hr>
+            <div>
+                <h1>why html</h1>
+                <p>why html</p>
+            </div>
+            <hr>
+        </section>
+
+        <!-- di is a block element -->
+        <div>this is a block element</div>
+
+        <!-- span is a span element -->
+        <span>this is a span element</span>
+    </main>
+    <footer>
+        This is footer
+    </footer>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <!-- List making in html -->
+        <!-- ul stand for unordered list -->
+        <!-- li stand for list items -->
+        <!-- ol stand for ordered list -->
+
+        <ul>
+            <li>Home</li>
+            <li>privacy</li>
+            <li>disclaimer</li>
+            <li>contact</li>
+        </ul>
+
+        <ol>
+            <li>Home</li>
+            <li>privacy</li>
+            <li>disclaimer</li>
+            <li>contact</li>
+        </ol>
+
+        <!-- Creating Table in html -->
+
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Table</title>
+        </head>
+
+        <body>
+            <div>
+                <table>
+                    <tr>
+                        <th>Processor</th>
+                        <!-- Colspan in do columns ki jaga ger lega -->
+                        <th colspan="2">Memory</th>
+                        <th>Storage</th>
+                        <th>Display</th>
+                    </tr>
+
+                    <tr>
+                        <th>1 ghz</th>
+                        <th>1gb</th>
+                        <th>500gb</th>
+                        <th>1080p</th>
+                    </tr>
+                </table>
+            </div>
+            <!-- Table another way -->
+            <div>
+                <h5>Minimum Requirements</h5>
+                <table border="1">
+                    <tr>
+                        <th>Components</th>
+                        <th>Requirements</th>
+                    </tr>
+
+                    <tr>
+                        <td>Processor</td>
+                        <td>1GHZ (Gega Hertz)</td>
+                    </tr>
+                    <tr>
+                        <td>Memory</td>
+                        <td>8GB Gega Bite</td>
+                    </tr>
+
+                    <tr>
+                        <td>Storage</td>
+                        <td>500 Gega Bytes</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Forms in html -->
+            <h3>Registration form</h3>
+            <div>
+                <form action="form.python">
+                    Name : <input type="text" placeholder="enter your name"><br>
+                    Phone Number : <input type="text"><br>
+                    Password : <input type="password"><br>
+                    Select Gender : <input type="radio" name="Gender">male
+                    <input type="radio" name="Gender">female <br>
+                    <button type="submit" value="submit"> Submit </button><br>
+                    <input type="checkbox" name="terms" class="blue">Terms and Conditions <br>
+                    <input type="datetime-local" name="meeting time" value="2021-06-12">
+                    <input type="date" id="start" name="trip-start" value="2018-07-22"></input>
+                </form>
+
+            </div>
+
+            <!-- Code with harry method of form -->
+            <h3>Other form</h3>
+            <div>
+                <form action="form.python">
+
+                    <input type="text" placeholder="enter">
+
+                    <label for="sectionida">
+                        <input type="radio" value="section a" name="section" id="sectionida">Section A
+                    </label>
+                    <label for="sectionidb">
+                        <input type="radio" value="section b" name="section" id="sectionidb">Section B
+                    </label>
+
+                    </label>
+                    <label for="sectionidbc">
+                        <input type="radio" value="section c" name="section" id="sectionidc" class="red blue">Section C
+                    </label>
+                    <br>
+                    <input type="checkbox" name="want food" id="foodcanteen" class="red">Terms and Conditions <br>
+                    <textarea name="explain" id="explain" placeholder="explain please" cols="30" rows="10"></textarea>
+                    <br>
+                    <!-- Select Tag -->
+                    <select name="omni" id="spd">
+                        <option value="No Car">Select your Car</option>
+                        <option value="omni">omni1</option>
+                        <option value="omni">omni2</option>
+                        </option>
+                    </select>
+
+                    <!-- To add videos in html webpage -->
+
+                    <!DOCTYPE html>
+                    <html lang="en">
+
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Videos</title>
+                    </head>
+
+                    <body>
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/BsDoLVMnmZs"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <!-- Iframe Tag -->
+                        <iframe src="https://www.bing.com" frameborder="0" width="200"></iframe>
+
+                        <!-- Video adding tag -->
+
+                        <video src="video.mp4" controls width="122"></video>
+
+                        <!-- To auto play control and loop video -->
+
+                        <video src="video.mp4" controls autoplay loop width="122"></video>
+
+                    </body>
+
+                    </html>
+
+        </body>
+
+        </html>
+
+        <!-- SEO IN HTML WEBSITES -->
+
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <meta name="description" content="lorem kjdhsjbkfsdlfkslkfsljfld">
+
+            <meta name="keywords" content="seo,goodseo,seo2021">
+
+            <meta name="author" content="harry is a author">
+
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+            <title>SEO IN 2021: A BEGGINERS GUIDE</title>
+        </head>
+
+        <body>
+            <!-- SEO IN HTML -->
+            <!-- ON PAGE --CAN BE DONE BY HTML DEVELOPERS -->
+            <!-- OFF PAGE --IS NOT FOR HTML DEVELOPERS  -->
+            1 : set a good title
+            <!-- <title>SEO IN 2021: A BEGGINERS GUIDE</title> -->
+            2 : set a good meta decription
+            <!-- <meta name="description" content="lorem kjdhsjbkfsdlfkslkfsljfld"> -->
+            3 : SET A NICE URL SLUG
+            4 : SET A META KEYWORD TAG
+            <!-- <meta name="keywords" content="seo,goodseo,seo2021"> -->
+            <!--NOTE : But note abuse it only use some good keywords not 1000s of keywords it will bw a spam -->
+            5 : SET THE META AUTHOR TAG
+            <!-- <meta name="author" content="harry is a author"  -->
+            6 : SET THE favicon : DOWNLOAD IT FROM WEB AND USE IT A AS A YOUR WEBSITE ICON
+            <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+            7 : Compress images and other resources in your website and compress it before using it
+            8 : Minimize your html.css,javascript code by using some websites for good developer experience
+            <!-- Search on browser that : Html, CSS , Js : compress and minify -->
+            9 : Remove useless html and css and js code for less load time and good seo
+            10 : add alt text to images
+
+            <header>
+                <nav>
+                    <ul>
+                        <li>home</li>
+                        <li>contact</li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <section>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione suscipit modi, at natus
+                            aspernatur distinctio?</p>
+                    </div>
+                </section>
+            </main>
+
+
+        </body>
+
+        </html>
